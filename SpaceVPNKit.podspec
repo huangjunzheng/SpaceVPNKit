@@ -10,9 +10,8 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SpaceVPNKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of SpaceVPNKit."
-  spec.description  = <<-DESC
-                   DESC
+  spec.summary      = "SpaceVPNKit is a tool for developing VPNS."
+  spec.description  = "This is a vpn tool, which contains the switch function of open protocol and ss protocol."
 
   spec.homepage     = "https://github.com/huangjunzheng/SpaceVPNKit"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
