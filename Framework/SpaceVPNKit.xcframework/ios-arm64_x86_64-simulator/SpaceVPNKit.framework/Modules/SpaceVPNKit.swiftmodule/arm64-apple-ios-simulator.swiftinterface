@@ -1,0 +1,122 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SpaceVPNKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import KeychainAccess
+import MMWormhole
+import NetworkExtension
+import OpenVPNAdapter
+@_exported import SpaceVPNKit
+import Swift
+import Tun2socks
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol VPNParameterProtocol {
+  var remoteIP: Swift.String { get set }
+  var port: Swift.String { get set }
+  var password: Swift.String { get set }
+}
+public enum VPNStatus : Swift.Int {
+  case notConfigured
+  case disconnected
+  case connecting
+  case connected
+  case reasserting
+  case disconnecting
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum VPNConnectionType : Swift.Int {
+  case open
+  case shadowsock
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct VPNError : Swift.Error {
+  public var code: Swift.Int
+  public var msg: Swift.String
+  public init(code: Swift.Int, msg: Swift.String)
+}
+public protocol VPNTunnelProtocol {
+  func vpnDidConnected()
+  func vpnDidDisConnected()
+  func vpnDidFailed(error: SpaceVPNKit.VPNError?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VPNProjectManager : ObjectiveC.NSObject {
+  public static let shared: SpaceVPNKit.VPNProjectManager
+  public var delegate: (any SpaceVPNKit.VPNTunnelProtocol)?
+  public var status: SpaceVPNKit.VPNStatus {
+    get
+  }
+  public func register(providerBundleIdentifier: Swift.String, appGroups: Swift.String)
+  public func getVPNStatus(completionHandler: ((SpaceVPNKit.VPNStatus) -> Swift.Void)?)
+  public func setVPNConfiguration(completionHandler: ((Swift.Bool) -> Swift.Void)?)
+  public func startVPNTunnel(type: SpaceVPNKit.VPNConnectionType, model: any SpaceVPNKit.VPNParameterProtocol, completionHandler: (((any Swift.Error)?) -> Swift.Void)?)
+  public func stopVPNTunnel(completionHandler: (((any Swift.Error)?) -> Swift.Void)?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class VPNProviderManager : ObjectiveC.NSObject {
+  public static let shared: SpaceVPNKit.VPNProviderManager
+  public var networkSettingsBlock: (((any Swift.Error)?) -> Swift.Void)?
+  public func register(providerBundleIdentifier: Swift.String, appGroups: Swift.String, _ tunnelFlow: (any SpaceVPNKit.VPNPacketTunnelFlowProtocol)?)
+  public func startTunnel(completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  public func stopTunnel(completionHandler: @escaping () -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension SpaceVPNKit.VPNProviderManager : OpenVPNAdapter.OpenVPNAdapterDelegate {
+  @objc dynamic public func openVPNAdapter(_ openVPNAdapter: OpenVPNAdapter.OpenVPNAdapter, configureTunnelWithNetworkSettings networkSettings: NetworkExtension.NEPacketTunnelNetworkSettings?, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc dynamic public func openVPNAdapter(_ openVPNAdapter: OpenVPNAdapter.OpenVPNAdapter, handleError error: any Swift.Error)
+  @objc dynamic public func openVPNAdapter(_ openVPNAdapter: OpenVPNAdapter.OpenVPNAdapter, handleEvent event: OpenVPNAdapter.OpenVPNAdapterEvent, message: Swift.String?)
+}
+extension SpaceVPNKit.VPNProviderManager : Tun2socks.Tun2socksTunWriterProtocol {
+  @objc dynamic public func write(_ p0: Foundation.Data?, n: Swift.UnsafeMutablePointer<Swift.Int>?) throws
+  @objc dynamic public func close() throws
+}
+public enum OpenProtocol : Swift.Int {
+  case tcp
+  case udp
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VPNOpenModel : ObjectiveC.NSObject, SpaceVPNKit.VPNParameterProtocol {
+  public var remoteIP: Swift.String
+  public var port: Swift.String
+  public var password: Swift.String
+  public var username: Swift.String
+  public var proto: SpaceVPNKit.OpenProtocol
+  public var ovpnData: Foundation.Data
+  public var connectionTimeout: Swift.Int
+  public var clockTick: Swift.Int
+  @objc deinit
+}
+public protocol VPNPacketTunnelFlowProtocol : OpenVPNAdapter.OpenVPNAdapterPacketFlow {
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VPNShadowsockModel : ObjectiveC.NSObject, SpaceVPNKit.VPNParameterProtocol {
+  public var remoteIP: Swift.String
+  public var port: Swift.String
+  public var password: Swift.String
+  public var encryption: Swift.String
+  @objc deinit
+}
+extension SpaceVPNKit.VPNStatus : Swift.Equatable {}
+extension SpaceVPNKit.VPNStatus : Swift.Hashable {}
+extension SpaceVPNKit.VPNStatus : Swift.RawRepresentable {}
+extension SpaceVPNKit.VPNConnectionType : Swift.Equatable {}
+extension SpaceVPNKit.VPNConnectionType : Swift.Hashable {}
+extension SpaceVPNKit.VPNConnectionType : Swift.RawRepresentable {}
+extension SpaceVPNKit.OpenProtocol : Swift.Equatable {}
+extension SpaceVPNKit.OpenProtocol : Swift.Hashable {}
+extension SpaceVPNKit.OpenProtocol : Swift.RawRepresentable {}
