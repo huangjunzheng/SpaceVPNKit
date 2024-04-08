@@ -1,0 +1,33 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - KeychainAccess (4.2.2)
+  - MMWormhole (2.0.0):
+    - MMWormhole/Core (= 2.0.0)
+  - MMWormhole/Core (2.0.0)
+  - SpaceVPNKit (0.0.1):
+    - CocoaAsyncSocket (~> 7.6.5)
+    - KeychainAccess (~> 4.2.2)
+    - MMWormhole (~> 2.0.0)
+
+DEPENDENCIES:
+  - SpaceVPNKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - KeychainAccess
+    - MMWormhole
+
+EXTERNAL SOURCES:
+  SpaceVPNKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  SpaceVPNKit: 60c7a540c741951e992203a98fe753474d10a541
+
+PODFILE CHECKSUM: 9e3047817b41c81b7ab8b06d08858c511f27d560
+
+COCOAPODS: 1.15.2

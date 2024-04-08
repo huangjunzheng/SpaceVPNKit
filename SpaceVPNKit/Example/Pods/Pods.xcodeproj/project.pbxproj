@@ -1,0 +1,1231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5D9AFCAFF258E1DD699CFDFF76E7DE92 /* SpaceVPNKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AEEE89942BAAE25EAE0FC43F7D8AD1FE /* Build configuration list for PBXAggregateTarget "SpaceVPNKit" */;
+			buildPhases = (
+				3511EF85D2A347AA792C85729657C77F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				21B0D8189B55DDEE69A80B98BA8E3FE8 /* PBXTargetDependency */,
+				88725216ED8BC7C7D055AA37E5FB4F3F /* PBXTargetDependency */,
+				7FF4379D2DFB468BA94275082184301E /* PBXTargetDependency */,
+			);
+			name = SpaceVPNKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02DAE095E43D598F39C00701E62CA242 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = A38F27F98CBE0B379DC5AB67525FC6D9 /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0876EF674D2AC9EB649D15765CACF38A /* MMWormholeSessionContextTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = DECEE18A5844AA8570530256B8840F10 /* MMWormholeSessionContextTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		10DC2E761FD8240755CB4D44AD848B3C /* MMWormholeSessionFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = 78754F19666C93FF61EDEB871CB7CB20 /* MMWormholeSessionFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13519B3ECB6AF5195CC4D074F72A8401 /* CocoaAsyncSocket-dummy.m */; };
+		145EAECCCD3637C051D305ED3B87967C /* MMWormholeSessionMessageTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE42ED7D6BEA756BA5EDA5D453EEB22 /* MMWormholeSessionMessageTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E82F834D1867575327C749E304E5717 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = D237163E63738ADA53C56FC040AD58EC /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D02167BA1FE8502CCA0CE9D583581BF /* Foundation.framework */; };
+		2C9022F02292EA5FB21AB5FFC27D05F8 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B329E6054C9E15B45957D051EC5502F9 /* Keychain.swift */; };
+		2F7FEE7B5882F2A7ED78261CD7D81EFF /* Pods-SpaceVPNKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5C6483F13B6AF0EA297D1E35A5727 /* Pods-SpaceVPNKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		321740FBD1C89969CA16BD264D6D1FDD /* MMWormholeSessionFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DD65CE66A1EA46E6C698E5A73D273F /* MMWormholeSessionFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4500748104C8D697EF8143CA3D83C0BC /* CFNetwork.framework */; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AAAD9951597995C9D54692DCDCEFB4 /* GCDAsyncUdpSocket.m */; };
+		3A8289DD1509BF5086A0381D7BE5DCD0 /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = D29DA7C4B812D151A650366591130491 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FCC552AFC56A22955991FAC91CC1A7 /* GCDAsyncSocket.m */; };
+		61A1136637848E05B3CF71EAD63F0487 /* MMWormholeSessionMessageTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B3341080C019FD715354A26B0FA30635 /* MMWormholeSessionMessageTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD6BC03116FE7EE73EF5282AF6DB587 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1504DCEFEA2EE8F7131868247E250DE7 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		802847C45D827FDC0AC71A91C6B4F76C /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8074A5F1FC48533A1F3A1FC30D49D9 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C0803B7CCF495A4D2D32BAE6911EB0 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 13858E69BC5311F02DEA8E9CEEA14606 /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24490959D1F8014C710F9F9C6496174C /* Security.framework */; };
+		8F0E172571603D1D2BFC533DCD2CA1F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D02167BA1FE8502CCA0CE9D583581BF /* Foundation.framework */; };
+		8FA59698D8E0940C6A785C92D2325664 /* MMWormhole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95D24E67A08955426323F1712B69A705 /* MMWormhole-dummy.m */; };
+		952A04525DBC4F1EC5F6A19224D0EB74 /* Pods-SpaceVPNKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6598DD99E0B236D7C57033125870B /* Pods-SpaceVPNKit_Example-dummy.m */; };
+		98115BC6B817E99BB0723648ED089353 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F623AF3FCCD5D75EE0D9EB76012C5F7 /* WatchConnectivity.framework */; };
+		A275AF26282712C0EE744A90F9CA52C7 /* MMWormholeSessionContextTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8561F855CAFD5CF7770272F0370434 /* MMWormholeSessionContextTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE13D3FA75FDFB448DD60361E8EDD711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D02167BA1FE8502CCA0CE9D583581BF /* Foundation.framework */; };
+		B12342B7665D8F0E5C8E4142FBC7CE69 /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B62940AAE84C770112746E5E4E7AED /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 131DA09AA3C1666F190276B3D922CF20 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCF966A242F1A37245EB58A12267EEC8 /* MMWormholeSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F35C2C50DDDDB894A2AA063395D0E /* MMWormholeSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF90BFF34BBAD8B2C7A6CE9641145561 /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C19C0C0BDC080192616EFDA19833E2D2 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD3B4CEE42DB4A796155E9B1E22FECCB /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CD2BF42FFD26C1792486B78E370632 /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D05E2424317DDE6F2C47C7A171394CDB /* MMWormhole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 112CB77616F88CFAF13DF72952BF85AB /* MMWormhole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE40D70752AFFE77E738C1459DB990C /* MMWormholeSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 593D28D6465EA7C3D0A79022E40718E9 /* MMWormholeSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEA3892D8746DA47A2889A0717514533 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46500EBDCC758D3F5D2F32EFAAE4C12C /* KeychainAccess-dummy.m */; };
+		EEC769F2E68ED023B1B1E151E68F9386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D02167BA1FE8502CCA0CE9D583581BF /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3065058C4E2F92787DA560FB705AB09E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		4803DF54BB72A9772CED2C88F3B6A827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
+			remoteInfo = MMWormhole;
+		};
+		5D3D560BC5B7147BE18B56516EDD4DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		75F602816B1B5235F714CA44D9F26455 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		A036390384B4900354F03753E4FF17EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		D308347B47B23D6AB5B61C8560A10DC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E37C8494356B2F3F48E654AC46CD6824;
+			remoteInfo = MMWormhole;
+		};
+		E57D90072D54B58E7C4D020B9319F731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9AFCAFF258E1DD699CFDFF76E7DE92;
+			remoteInfo = SpaceVPNKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F35C2C50DDDDB894A2AA063395D0E /* MMWormholeSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSession.m; path = Source/MMWormholeSession.m; sourceTree = "<group>"; };
+		04CC66EC2DADDFBEB4AF136D764EF2CC /* Pods-SpaceVPNKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpaceVPNKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05AAAD9951597995C9D54692DCDCEFB4 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		1083219EE88CAFF3D2FD9772659C51D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		112CB77616F88CFAF13DF72952BF85AB /* MMWormhole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-umbrella.h"; sourceTree = "<group>"; };
+		131DA09AA3C1666F190276B3D922CF20 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		13519B3ECB6AF5195CC4D074F72A8401 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		13858E69BC5311F02DEA8E9CEEA14606 /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		1504DCEFEA2EE8F7131868247E250DE7 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		21C1FAFF1F983BC0723063BC5EFF305C /* Tun2socks.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = Tun2socks.xcframework; path = SpaceVPNKit/Classes/ThirdParty/SSVPNTun2socksSDK/Tun2socks.xcframework; sourceTree = "<group>"; };
+		23CD2BF42FFD26C1792486B78E370632 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		24490959D1F8014C710F9F9C6496174C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		27C5C6483F13B6AF0EA297D1E35A5727 /* Pods-SpaceVPNKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpaceVPNKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		303AFA06BF52DADDE9259E2311A006E6 /* SpaceVPNKit-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SpaceVPNKit-xcframeworks.sh"; sourceTree = "<group>"; };
+		3BD64D6F7ACA3068038E6C740650E681 /* MMWormhole-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMWormhole-Info.plist"; sourceTree = "<group>"; };
+		3D02167BA1FE8502CCA0CE9D583581BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D5B8E85A98462871864977E5BAEAF1C /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		436FF934B3AFB04695523A61D8E72B5F /* KeychainAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.debug.xcconfig; sourceTree = "<group>"; };
+		44CD0DE055BE05371EE5AD0704B98AB2 /* MMWormhole.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.debug.xcconfig; sourceTree = "<group>"; };
+		4500748104C8D697EF8143CA3D83C0BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		46500EBDCC758D3F5D2F32EFAAE4C12C /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		4D6D9745893FC1D85109136E8A86E78F /* Pods-SpaceVPNKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpaceVPNKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		51AA3F2173C088C3C624AECE6960981E /* SpaceVPNKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpaceVPNKit.release.xcconfig; sourceTree = "<group>"; };
+		5346A03656CDDF515D6B8CC4654D2B74 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		593D28D6465EA7C3D0A79022E40718E9 /* MMWormholeSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSession.h; path = Source/MMWormholeSession.h; sourceTree = "<group>"; };
+		5CB76C546FC32002148F43E643D27D45 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		5CD6BC03116FE7EE73EF5282AF6DB587 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		67CF4090B1FAF7EA177F00DDB977390D /* SpaceVPNKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpaceVPNKit.debug.xcconfig; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7276DB53690E437E47D3DFA5EBD80E3B /* Pods-SpaceVPNKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpaceVPNKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7356C480EF231AC74A09D48B05273403 /* MMWormhole.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.release.xcconfig; sourceTree = "<group>"; };
+		76FCC552AFC56A22955991FAC91CC1A7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		786DA5FB1F438C3018CDA2C38E1CE58A /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		78754F19666C93FF61EDEB871CB7CB20 /* MMWormholeSessionFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionFileTransiting.h; path = Source/MMWormholeSessionFileTransiting.h; sourceTree = "<group>"; };
+		7DAD4F025C5A23DA6ABAAB8495E161C6 /* Pods-SpaceVPNKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SpaceVPNKit_Example"; path = Pods_SpaceVPNKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2F05006D99B5C8CBA2CB0E4D8644C2 /* OpenVPNAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenVPNAdapter.xcframework; path = "SpaceVPNKit/Classes/ThirdParty/OpenVPNAdapterSDK-0.8.0/OpenVPNAdapter.xcframework"; sourceTree = "<group>"; };
+		8EB96254065DB1FA1E7784083CF3EDFF /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		95D24E67A08955426323F1712B69A705 /* MMWormhole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-dummy.m"; sourceTree = "<group>"; };
+		9B047F8129209C8BA1AAF56B9C640740 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD99F423A68C8164B0031AC58804B64 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		9F623AF3FCCD5D75EE0D9EB76012C5F7 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		A38F27F98CBE0B379DC5AB67525FC6D9 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		AC944271E95F64A44A56F70D9A426D0D /* Pods-SpaceVPNKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpaceVPNKit_Example.modulemap"; sourceTree = "<group>"; };
+		ACBD43C53B053EDB56DABA073E5893B3 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		AF4A81869C5B72CBA97AA53521C2885C /* Pods-SpaceVPNKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpaceVPNKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B329E6054C9E15B45957D051EC5502F9 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		B3341080C019FD715354A26B0FA30635 /* MMWormholeSessionMessageTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionMessageTransiting.h; path = Source/MMWormholeSessionMessageTransiting.h; sourceTree = "<group>"; };
+		C19C0C0BDC080192616EFDA19833E2D2 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		C7B62940AAE84C770112746E5E4E7AED /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
+		CE7D6A9B50AFE9B3775D45A38B71BEB4 /* SpaceVPNKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpaceVPNKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF55EE04CB9208EC0F7A3CB1F4CE8197 /* Pods-SpaceVPNKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpaceVPNKit_Example-Info.plist"; sourceTree = "<group>"; };
+		D237163E63738ADA53C56FC040AD58EC /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		D25624EFF7A1D7E57BA5965E6084FC55 /* MMWormhole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMWormhole.modulemap; sourceTree = "<group>"; };
+		D29DA7C4B812D151A650366591130491 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMWormhole; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABA64C74042976723FFB3931B924CBE /* SpaceVPNKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SpaceVPNKit.xcframework; path = SpaceVPNKit/Classes/SpaceVPNKit.xcframework; sourceTree = "<group>"; };
+		DECEE18A5844AA8570530256B8840F10 /* MMWormholeSessionContextTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionContextTransiting.m; path = Source/MMWormholeSessionContextTransiting.m; sourceTree = "<group>"; };
+		E6451D410F57C2BCAC1DEA89EA6552FF /* Pods-SpaceVPNKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpaceVPNKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8561F855CAFD5CF7770272F0370434 /* MMWormholeSessionContextTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeSessionContextTransiting.h; path = Source/MMWormholeSessionContextTransiting.h; sourceTree = "<group>"; };
+		EB8074A5F1FC48533A1F3A1FC30D49D9 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		F6DD65CE66A1EA46E6C698E5A73D273F /* MMWormholeSessionFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionFileTransiting.m; path = Source/MMWormholeSessionFileTransiting.m; sourceTree = "<group>"; };
+		F7D39940F4B126F8097B8303A24DE278 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		F8E6598DD99E0B236D7C57033125870B /* Pods-SpaceVPNKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpaceVPNKit_Example-dummy.m"; sourceTree = "<group>"; };
+		FB26D75F5216FD16153E96BB5E5990BB /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
+		FBE7CE71AB414939F6DEB2453BC54E19 /* KeychainAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.release.xcconfig; sourceTree = "<group>"; };
+		FDE42ED7D6BEA756BA5EDA5D453EEB22 /* MMWormholeSessionMessageTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeSessionMessageTransiting.m; path = Source/MMWormholeSessionMessageTransiting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A2EC0AB6F1423BBB0D97DFA9CC1E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE13D3FA75FDFB448DD60361E8EDD711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6703FDCC6042E55442F939C92887744E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC769F2E68ED023B1B1E151E68F9386 /* Foundation.framework in Frameworks */,
+				98115BC6B817E99BB0723648ED089353 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA1B4B36CFC55444B6346A92221C3BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0E172571603D1D2BFC533DCD2CA1F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01CFF3C0888B978E3B1C325A6CB59B69 /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				50C9DEE11CFDF221BEF8918489832D9D /* Core */,
+				5951D2C80184A5DF3DBA99497619013B /* Support Files */,
+			);
+			name = MMWormhole;
+			path = MMWormhole;
+			sourceTree = "<group>";
+		};
+		0BE5E691E34020EB74D5CCEA0A1A63B5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4500748104C8D697EF8143CA3D83C0BC /* CFNetwork.framework */,
+				3D02167BA1FE8502CCA0CE9D583581BF /* Foundation.framework */,
+				24490959D1F8014C710F9F9C6496174C /* Security.framework */,
+				9F623AF3FCCD5D75EE0D9EB76012C5F7 /* WatchConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		203FAD8409137767D46AD7DFB82B5CFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D39940F4B126F8097B8303A24DE278 /* CocoaAsyncSocket.modulemap */,
+				13519B3ECB6AF5195CC4D074F72A8401 /* CocoaAsyncSocket-dummy.m */,
+				ACBD43C53B053EDB56DABA073E5893B3 /* CocoaAsyncSocket-Info.plist */,
+				786DA5FB1F438C3018CDA2C38E1CE58A /* CocoaAsyncSocket-prefix.pch */,
+				1504DCEFEA2EE8F7131868247E250DE7 /* CocoaAsyncSocket-umbrella.h */,
+				8EB96254065DB1FA1E7784083CF3EDFF /* CocoaAsyncSocket.debug.xcconfig */,
+				9DD99F423A68C8164B0031AC58804B64 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		2B510D6186A6F8F31D1BDD8813BDF291 /* Pods-SpaceVPNKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AC944271E95F64A44A56F70D9A426D0D /* Pods-SpaceVPNKit_Example.modulemap */,
+				04CC66EC2DADDFBEB4AF136D764EF2CC /* Pods-SpaceVPNKit_Example-acknowledgements.markdown */,
+				4D6D9745893FC1D85109136E8A86E78F /* Pods-SpaceVPNKit_Example-acknowledgements.plist */,
+				F8E6598DD99E0B236D7C57033125870B /* Pods-SpaceVPNKit_Example-dummy.m */,
+				AF4A81869C5B72CBA97AA53521C2885C /* Pods-SpaceVPNKit_Example-frameworks.sh */,
+				CF55EE04CB9208EC0F7A3CB1F4CE8197 /* Pods-SpaceVPNKit_Example-Info.plist */,
+				27C5C6483F13B6AF0EA297D1E35A5727 /* Pods-SpaceVPNKit_Example-umbrella.h */,
+				7276DB53690E437E47D3DFA5EBD80E3B /* Pods-SpaceVPNKit_Example.debug.xcconfig */,
+				E6451D410F57C2BCAC1DEA89EA6552FF /* Pods-SpaceVPNKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SpaceVPNKit_Example";
+			path = "Target Support Files/Pods-SpaceVPNKit_Example";
+			sourceTree = "<group>";
+		};
+		32E59624C1D0A17807E522BE00DAD2C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1083219EE88CAFF3D2FD9772659C51D3 /* LICENSE */,
+				9B047F8129209C8BA1AAF56B9C640740 /* README.md */,
+				CE7D6A9B50AFE9B3775D45A38B71BEB4 /* SpaceVPNKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		50C9DEE11CFDF221BEF8918489832D9D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C7B62940AAE84C770112746E5E4E7AED /* MMWormhole.h */,
+				13858E69BC5311F02DEA8E9CEEA14606 /* MMWormhole.m */,
+				EB8074A5F1FC48533A1F3A1FC30D49D9 /* MMWormholeCoordinatedFileTransiting.h */,
+				23CD2BF42FFD26C1792486B78E370632 /* MMWormholeCoordinatedFileTransiting.m */,
+				D29DA7C4B812D151A650366591130491 /* MMWormholeFileTransiting.h */,
+				A38F27F98CBE0B379DC5AB67525FC6D9 /* MMWormholeFileTransiting.m */,
+				593D28D6465EA7C3D0A79022E40718E9 /* MMWormholeSession.h */,
+				040F35C2C50DDDDB894A2AA063395D0E /* MMWormholeSession.m */,
+				EA8561F855CAFD5CF7770272F0370434 /* MMWormholeSessionContextTransiting.h */,
+				DECEE18A5844AA8570530256B8840F10 /* MMWormholeSessionContextTransiting.m */,
+				78754F19666C93FF61EDEB871CB7CB20 /* MMWormholeSessionFileTransiting.h */,
+				F6DD65CE66A1EA46E6C698E5A73D273F /* MMWormholeSessionFileTransiting.m */,
+				B3341080C019FD715354A26B0FA30635 /* MMWormholeSessionMessageTransiting.h */,
+				FDE42ED7D6BEA756BA5EDA5D453EEB22 /* MMWormholeSessionMessageTransiting.m */,
+				D237163E63738ADA53C56FC040AD58EC /* MMWormholeTransiting.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		520A80833D0A478D94A7AA65158605E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B510D6186A6F8F31D1BDD8813BDF291 /* Pods-SpaceVPNKit_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55DFAEE55BBA9A1CD7B0895BBE214990 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				5CD6BC03116FE7EE73EF5282AF6DB587 /* GCDAsyncSocket.h */,
+				76FCC552AFC56A22955991FAC91CC1A7 /* GCDAsyncSocket.m */,
+				131DA09AA3C1666F190276B3D922CF20 /* GCDAsyncUdpSocket.h */,
+				05AAAD9951597995C9D54692DCDCEFB4 /* GCDAsyncUdpSocket.m */,
+				203FAD8409137767D46AD7DFB82B5CFB /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		5951D2C80184A5DF3DBA99497619013B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D25624EFF7A1D7E57BA5965E6084FC55 /* MMWormhole.modulemap */,
+				95D24E67A08955426323F1712B69A705 /* MMWormhole-dummy.m */,
+				3BD64D6F7ACA3068038E6C740650E681 /* MMWormhole-Info.plist */,
+				FB26D75F5216FD16153E96BB5E5990BB /* MMWormhole-prefix.pch */,
+				112CB77616F88CFAF13DF72952BF85AB /* MMWormhole-umbrella.h */,
+				44CD0DE055BE05371EE5AD0704B98AB2 /* MMWormhole.debug.xcconfig */,
+				7356C480EF231AC74A09D48B05273403 /* MMWormhole.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMWormhole";
+			sourceTree = "<group>";
+		};
+		5C247BD0C85664D25CB70ED157636F6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55DFAEE55BBA9A1CD7B0895BBE214990 /* CocoaAsyncSocket */,
+				DACFAF1F6154D45F11713DE346FE652A /* KeychainAccess */,
+				01CFF3C0888B978E3B1C325A6CB59B69 /* MMWormhole */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E495A7D13D5AC18D61C34E18413E87C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D2F05006D99B5C8CBA2CB0E4D8644C2 /* OpenVPNAdapter.xcframework */,
+				DABA64C74042976723FFB3931B924CBE /* SpaceVPNKit.xcframework */,
+				21C1FAFF1F983BC0723063BC5EFF305C /* Tun2socks.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		775C83FF38ACA734ED95BB628020F5D4 /* SpaceVPNKit */ = {
+			isa = PBXGroup;
+			children = (
+				5E495A7D13D5AC18D61C34E18413E87C /* Frameworks */,
+				32E59624C1D0A17807E522BE00DAD2C4 /* Pod */,
+				E3852D1411048EACB40606DA5C848F7F /* Support Files */,
+			);
+			name = SpaceVPNKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		861E6EF95B848ECD32678BE7E1767A25 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				775C83FF38ACA734ED95BB628020F5D4 /* SpaceVPNKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		959927D5182F0769030D746456C90B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */,
+				D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */,
+				7DAD4F025C5A23DA6ABAAB8495E161C6 /* Pods-SpaceVPNKit_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE5E691E34020EB74D5CCEA0A1A63B5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				861E6EF95B848ECD32678BE7E1767A25 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				5C247BD0C85664D25CB70ED157636F6C /* Pods */,
+				959927D5182F0769030D746456C90B6C /* Products */,
+				520A80833D0A478D94A7AA65158605E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DACFAF1F6154D45F11713DE346FE652A /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				B329E6054C9E15B45957D051EC5502F9 /* Keychain.swift */,
+				E291C4B5F2A4F5F907FAC4990186238B /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		E291C4B5F2A4F5F907FAC4990186238B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB76C546FC32002148F43E643D27D45 /* KeychainAccess.modulemap */,
+				46500EBDCC758D3F5D2F32EFAAE4C12C /* KeychainAccess-dummy.m */,
+				3D5B8E85A98462871864977E5BAEAF1C /* KeychainAccess-Info.plist */,
+				5346A03656CDDF515D6B8CC4654D2B74 /* KeychainAccess-prefix.pch */,
+				C19C0C0BDC080192616EFDA19833E2D2 /* KeychainAccess-umbrella.h */,
+				436FF934B3AFB04695523A61D8E72B5F /* KeychainAccess.debug.xcconfig */,
+				FBE7CE71AB414939F6DEB2453BC54E19 /* KeychainAccess.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
+			sourceTree = "<group>";
+		};
+		E3852D1411048EACB40606DA5C848F7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				303AFA06BF52DADDE9259E2311A006E6 /* SpaceVPNKit-xcframeworks.sh */,
+				67CF4090B1FAF7EA177F00DDB977390D /* SpaceVPNKit.debug.xcconfig */,
+				51AA3F2173C088C3C624AECE6960981E /* SpaceVPNKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SpaceVPNKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3467266502C728982B023FE5C2A43841 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12342B7665D8F0E5C8E4142FBC7CE69 /* MMWormhole.h in Headers */,
+				D05E2424317DDE6F2C47C7A171394CDB /* MMWormhole-umbrella.h in Headers */,
+				802847C45D827FDC0AC71A91C6B4F76C /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				3A8289DD1509BF5086A0381D7BE5DCD0 /* MMWormholeFileTransiting.h in Headers */,
+				DEE40D70752AFFE77E738C1459DB990C /* MMWormholeSession.h in Headers */,
+				A275AF26282712C0EE744A90F9CA52C7 /* MMWormholeSessionContextTransiting.h in Headers */,
+				10DC2E761FD8240755CB4D44AD848B3C /* MMWormholeSessionFileTransiting.h in Headers */,
+				61A1136637848E05B3CF71EAD63F0487 /* MMWormholeSessionMessageTransiting.h in Headers */,
+				1E82F834D1867575327C749E304E5717 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F693BCCA0F891E055DDD52B4A474802 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7FEE7B5882F2A7ED78261CD7D81EFF /* Pods-SpaceVPNKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF75125526618A4F89C7DE0AA396B82A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF90BFF34BBAD8B2C7A6CE9641145561 /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8186AABF55F555DDAD74F17BA7EC1698 /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				BF75125526618A4F89C7DE0AA396B82A /* Headers */,
+				3CA247B210AE409280F27D97CC981D9D /* Sources */,
+				61A2EC0AB6F1423BBB0D97DFA9CC1E1B /* Frameworks */,
+				57833CBC64D40DF1355638A2FC2ACC60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess */;
+			productType = "com.apple.product-type.framework";
+		};
+		77DAAEE008A730B85B26FF926AE46A0B /* Pods-SpaceVPNKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D113EE536999A09BB105B481225C7D9 /* Build configuration list for PBXNativeTarget "Pods-SpaceVPNKit_Example" */;
+			buildPhases = (
+				9F693BCCA0F891E055DDD52B4A474802 /* Headers */,
+				BB4B41E09343D34DCE8BD23BD84DE0D4 /* Sources */,
+				CA1B4B36CFC55444B6346A92221C3BCF /* Frameworks */,
+				64296819462B4383EFE78227B92CD1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDA0EACE0FDF1CE729C26DFDD6B3E98 /* PBXTargetDependency */,
+				8FDFA575E9BF627B5C20ED6CF79245CC /* PBXTargetDependency */,
+				9CEE6474CADE520C802C989CFED7D6EB /* PBXTargetDependency */,
+				195B89D4E05D645B74684502F3DA21C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpaceVPNKit_Example";
+			productName = Pods_SpaceVPNKit_Example;
+			productReference = 7DAD4F025C5A23DA6ABAAB8495E161C6 /* Pods-SpaceVPNKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DEA17F029724C1CB833C94BE4BE7569 /* Build configuration list for PBXNativeTarget "MMWormhole" */;
+			buildPhases = (
+				3467266502C728982B023FE5C2A43841 /* Headers */,
+				DD7AF75964F686323DCFD0548A939186 /* Sources */,
+				6703FDCC6042E55442F939C92887744E /* Frameworks */,
+				9AC1EDC7BF35834401C96AD11BAA4282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMWormhole;
+			productName = MMWormhole;
+			productReference = D9C203AF2F5D868FFFED227C2527287F /* MMWormhole */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 959927D5182F0769030D746456C90B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
+				E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */,
+				77DAAEE008A730B85B26FF926AE46A0B /* Pods-SpaceVPNKit_Example */,
+				5D9AFCAFF258E1DD699CFDFF76E7DE92 /* SpaceVPNKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57833CBC64D40DF1355638A2FC2ACC60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64296819462B4383EFE78227B92CD1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC1EDC7BF35834401C96AD11BAA4282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3511EF85D2A347AA792C85729657C77F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/SpaceVPNKit/SpaceVPNKit-xcframeworks.sh",
+				"${PODS_ROOT}/../../SpaceVPNKit/Classes/SpaceVPNKit.xcframework",
+				"${PODS_ROOT}/../../SpaceVPNKit/Classes/ThirdParty/OpenVPNAdapterSDK-0.8.0/OpenVPNAdapter.xcframework",
+				"${PODS_ROOT}/../../SpaceVPNKit/Classes/ThirdParty/SSVPNTun2socksSDK/Tun2socks.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SpaceVPNKit/SpaceVPNKit.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SpaceVPNKit/OpenVPNAdapter.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SpaceVPNKit/Tun2socks.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SpaceVPNKit/SpaceVPNKit-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA247B210AE409280F27D97CC981D9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9022F02292EA5FB21AB5FFC27D05F8 /* Keychain.swift in Sources */,
+				EEA3892D8746DA47A2889A0717514533 /* KeychainAccess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B41E09343D34DCE8BD23BD84DE0D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952A04525DBC4F1EC5F6A19224D0EB74 /* Pods-SpaceVPNKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7AF75964F686323DCFD0548A939186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C0803B7CCF495A4D2D32BAE6911EB0 /* MMWormhole.m in Sources */,
+				8FA59698D8E0940C6A785C92D2325664 /* MMWormhole-dummy.m in Sources */,
+				CD3B4CEE42DB4A796155E9B1E22FECCB /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				02DAE095E43D598F39C00701E62CA242 /* MMWormholeFileTransiting.m in Sources */,
+				BCF966A242F1A37245EB58A12267EEC8 /* MMWormholeSession.m in Sources */,
+				0876EF674D2AC9EB649D15765CACF38A /* MMWormholeSessionContextTransiting.m in Sources */,
+				321740FBD1C89969CA16BD264D6D1FDD /* MMWormholeSessionFileTransiting.m in Sources */,
+				145EAECCCD3637C051D305ED3B87967C /* MMWormholeSessionMessageTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195B89D4E05D645B74684502F3DA21C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpaceVPNKit;
+			target = 5D9AFCAFF258E1DD699CFDFF76E7DE92 /* SpaceVPNKit */;
+			targetProxy = E57D90072D54B58E7C4D020B9319F731 /* PBXContainerItemProxy */;
+		};
+		21B0D8189B55DDEE69A80B98BA8E3FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 3065058C4E2F92787DA560FB705AB09E /* PBXContainerItemProxy */;
+		};
+		7FF4379D2DFB468BA94275082184301E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
+			targetProxy = D308347B47B23D6AB5B61C8560A10DC6 /* PBXContainerItemProxy */;
+		};
+		88725216ED8BC7C7D055AA37E5FB4F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 5D3D560BC5B7147BE18B56516EDD4DAA /* PBXContainerItemProxy */;
+		};
+		8FDFA575E9BF627B5C20ED6CF79245CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 75F602816B1B5235F714CA44D9F26455 /* PBXContainerItemProxy */;
+		};
+		9CEE6474CADE520C802C989CFED7D6EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = E37C8494356B2F3F48E654AC46CD6824 /* MMWormhole */;
+			targetProxy = 4803DF54BB72A9772CED2C88F3B6A827 /* PBXContainerItemProxy */;
+		};
+		EDDA0EACE0FDF1CE729C26DFDD6B3E98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = A036390384B4900354F03753E4FF17EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BFE9C0CC3252596622D415FBDD8BA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AA3F2173C088C3C624AECE6960981E /* SpaceVPNKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1970AB43405FABD358AA89F2FEE93A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE7CE71AB414939F6DEB2453BC54E19 /* KeychainAccess.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AB16842C58F8CD9BA4BEBC145C393B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DD99F423A68C8164B0031AC58804B64 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		533538135584F2F3741C57ADA42F0D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436FF934B3AFB04695523A61D8E72B5F /* KeychainAccess.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75C73A1DA8640D524F3677FF757AA4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6451D410F57C2BCAC1DEA89EA6552FF /* Pods-SpaceVPNKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpaceVPNKit_Example/Pods-SpaceVPNKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpaceVPNKit_Example/Pods-SpaceVPNKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AC84BA2111D37185774CF4F952FCBBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB96254065DB1FA1E7784083CF3EDFF /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5199897593189A6AA096DFCC30A010C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CD0DE055BE05371EE5AD0704B98AB2 /* MMWormhole.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFA4F947D99F0B261BF660B5830E218A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7276DB53690E437E47D3DFA5EBD80E3B /* Pods-SpaceVPNKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpaceVPNKit_Example/Pods-SpaceVPNKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpaceVPNKit_Example/Pods-SpaceVPNKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E245A9B4138591866155C1F8C512D908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7356C480EF231AC74A09D48B05273403 /* MMWormhole.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/MMWormhole-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E35FE32C4237AC0D277757CEEBB70F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CF4090B1FAF7EA177F00DDB977390D /* SpaceVPNKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DEA17F029724C1CB833C94BE4BE7569 /* Build configuration list for PBXNativeTarget "MMWormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5199897593189A6AA096DFCC30A010C /* Debug */,
+				E245A9B4138591866155C1F8C512D908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D113EE536999A09BB105B481225C7D9 /* Build configuration list for PBXNativeTarget "Pods-SpaceVPNKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA4F947D99F0B261BF660B5830E218A /* Debug */,
+				75C73A1DA8640D524F3677FF757AA4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8186AABF55F555DDAD74F17BA7EC1698 /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533538135584F2F3741C57ADA42F0D1E /* Debug */,
+				1970AB43405FABD358AA89F2FEE93A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEE89942BAAE25EAE0FC43F7D8AD1FE /* Build configuration list for PBXAggregateTarget "SpaceVPNKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35FE32C4237AC0D277757CEEBB70F31 /* Debug */,
+				0BFE9C0CC3252596622D415FBDD8BA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC84BA2111D37185774CF4F952FCBBEE /* Debug */,
+				3AB16842C58F8CD9BA4BEBC145C393B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

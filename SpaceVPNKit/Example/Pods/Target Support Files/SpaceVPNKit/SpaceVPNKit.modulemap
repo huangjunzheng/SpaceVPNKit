@@ -1,0 +1,6 @@
+framework module SpaceVPNKit {
+  umbrella header "SpaceVPNKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
