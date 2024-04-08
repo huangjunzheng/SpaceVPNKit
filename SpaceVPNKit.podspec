@@ -26,5 +26,8 @@ Pod::Spec.new do |spec|
   spec.frameworks = "UIKit", "Foundation", "NetworkExtension"
 
   spec.requires_arc = true
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64 armv7 arm64', 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64armv7arm64', 'VALID_ARCHS'=>'x86_64armv7arm64' }
 
 end
