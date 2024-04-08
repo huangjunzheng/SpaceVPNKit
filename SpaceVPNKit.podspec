@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.description  = "This is a vpn tool, which contains the switch function of open protocol and ss protocol."
 
   spec.homepage     = "https://github.com/huangjunzheng/SpaceVPNKit"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
   spec.author             = { "junzheng" => "769159094@qq.com" }
   spec.platform     = :ios
